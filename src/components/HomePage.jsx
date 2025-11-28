@@ -35,23 +35,6 @@ const HomePage = () => {
                             </button>
                         </div>
                     </div>
-
-                    {/* Stats */}
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-20">
-                        {[
-                            { value: '500+', label: 'Cartes disponibles' },
-                            { value: '1000+', label: 'Joueurs actifs' },
-                            { value: '50+', label: 'Decks partagés' },
-                            { value: '100%', label: 'Gratuit' },
-                        ].map((stat, index) => (
-                            <div key={index} className="text-center">
-                                <div className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-amber-400">
-                                    {stat.value}
-                                </div>
-                                <div className="text-gray-400 mt-2">{stat.label}</div>
-                            </div>
-                        ))}
-                    </div>
                 </div>
             </section>
 
