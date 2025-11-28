@@ -116,26 +116,6 @@ const Login = () => {
                         </div>
                     </form>
                 </div>
-
-                {/* Compte de démonstration */}
-                <div className="bg-slate-800/30 backdrop-blur-sm rounded-lg border border-amber-500/10 p-4">
-                    <p className="text-gray-400 text-xs text-center mb-2">
-                        💡 Compte de test
-                    </p>
-                    <div className="text-center space-y-1">
-                        <p className="text-gray-500 text-xs">Email: demo@riftbound.com</p>
-                        <p className="text-gray-500 text-xs">Mot de passe: demo123</p>
-                    </div>
-                    <button
-                        onClick={() => {
-                            setEmail('demo@riftbound.com');
-                            setPassword('demo123');
-                        }}
-                        className="w-full mt-3 text-amber-400 hover:text-amber-300 text-xs font-semibold"
-                    >
-                        Utiliser le compte de test
-                    </button>
-                </div>
             </div>
         </div>
     );
